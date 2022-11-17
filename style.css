@@ -1,8 +1,107 @@
-body {
-    background-color: #1F2937;
-    font-family: sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
 }
 
-header {
+body{
+    font-family: sans-serif;
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero {
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.headerLogo {
+    cursor: pointer;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.heromain {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.main {
+    flex-basis: 40%;
+}
+
+h4 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+button {
+    width: 130px;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 30px;
+    background-color: #3882F6;
+}
+
+.card {
+    width: 150%;
+    height: 230px;
+    display: inline-block;
+    border-radius: 0%;
+    cursor: pointer;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    background-color: #bcbdc0;
+    position: relative;
+}
+
+.card p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    padding-left: 25%;
 }
