@@ -2,13 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #1f2937;
     color: white;
 }
@@ -21,9 +18,7 @@ body{
 
 .navbar {
     height: 80px;
-    display: flex;
     align-items: center;
-
 }
 
 .headerLogo {
@@ -33,7 +28,6 @@ body{
 }
 
 nav {
-    flex: 1;
     text-align: right;
 }
 
@@ -140,4 +134,29 @@ button {
     color: #1f2937;
     font-size: 15px;
     text-align: center;
+}
+
+.quote {
+    border: 0;
+    align-items: center;
+    box-sizing: border-box;
+    background: #e5e7eb;
+    padding: 50px 50px 50px 50px;
+
+}
+
+.quotation {
+    width: 800px;
+    text-align: left;
+    color:#1f2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 20px 240px 0;
+}
+
+.author {
+    color: #1f2937;
+    text-align: right;
+    margin-right: 230px;
+    font-weight: bolder;
 }
